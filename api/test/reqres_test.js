@@ -7,10 +7,6 @@ chai.use(require('chai-json-schema'));
 const testCase = {
     "positive" : {
        "getMember" : "As a User, I want to get the info of a member",
-    },
-    "negative" : {
-       "noSearch" : "As a User, I should got error message when I send request without key of search",
-       "invalidApiKey" : "As a User, I should got error 401 when I send request with invalid API Key"
     }
 };
 
