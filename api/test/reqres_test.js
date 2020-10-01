@@ -15,7 +15,7 @@ describe(`Reqres API test`, () => {
         const param = {
             page: '2',
         };
-        // console.log(param.page)
+        console.log(param.page)
         const response = await ep.getListMember(param);
         assert(response.status).to.equal(200);
         assert(response.body).to.be.jsonSchema(schema);
